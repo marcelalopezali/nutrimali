@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif; 
+    background: #2D2A27;
+    color: white;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px 0px 10px;
+
+}
+
+nav >div >span{
+    font-weight: 200;
+    padding-right: 10px;
+}
+
+nav >div >h4{
+    display: flex;
+    flex-direction: row;
+    font-size: 2rem;
+    font-weight: 100;
+    font-family: italianno;
+    color: #E9D631;
+}
+
+.navIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 10px;
+}
+
+.navIcon >svg{
+    margin-right: 20px;
+
+}
+.navIcon >a{
+    text-decoration: none;
+    color: white;
+}
+button{
+    text-decoration: none;
+    background-color: #E9D631;
+    background: transparent;
+    padding: 10px;
+    border-radius: 50px;
+}
+    
+button:hover{
+    box-shadow: 5px 5px 5px 0;
+    transition: 0.4s;
+    color: #FEF7C0;
+}
+
+.hero{
+    background: url(./img/fsecos\ con\ coco.jpg);
+    background-size:cover;
+    width: auto;
+    height: 800px;
+    background-color: transparent;
+}
+
+.hero::before{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(90deg, rgba(39,39,40,1) 0%, rgba(133,133,135,1) 35%, rgba(223,231,233,1) 100%);
+    z-index: 1;
+}
+
+.hero1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+h1,h2,h6,svg{
+    background-color: transparent;
+}
+section >div >h1{
+    margin-top: 70px;
+}
+section >div >h6{
+    margin-top: 30px;
+}
+section >div >button{
+    margin-top: 30px;
+}
+.hero2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 300px;
+    background-color: transparent;
+    margin-top: 350px;
+    width: 900px;
+}
+
+.planes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.planes1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    width: 900px;
+}
+h5{
+    padding-right: 50px;
+}
+.imgPlanes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 1200px;
+    height: 600px;
+    padding: 50px;
+    
+}
+.img1{
+    width: 450px;
+    height: 550px;
+    border-radius: 15px;
+    background: url(./img/foton.jpg);
+    background-size: cover;
+    flex-grow: 1;
+    padding: 20px;
+}
+.img2{
+    width: 400px;
+    height: 220px;
+    border-radius: 15px;
+    background-image: url(./img/foton2.jpg);
+    background-size: cover;
+    flex-grow: 2;
+    margin-bottom: 50px;
+}
+.img3{
+    width: 400px;
+    height: 220px;
+    border-radius: 15px;
+    background-image: url(./img/keto.jpg);
+    background-size: cover;
+    flex-grow: 2;
+    padding: 50px;
+}
+
+.servicios{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 800px;
+}
+.serv1{
+    display: flex;
+    background-image: url(./img/nutric.jpg);
+    background-size: cover;
+    filter: blur(5px);
+    width: 200px;
+    height: 550px;
+    flex-grow: 1;
+}
+.serv2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./img/nutric.jpg);
+    background-size: cover;
+    width: 200px;
+    height: 550px;
+    flex-grow: 1;
+}
+h5{
+    background-color: transparent;
+}
+.btnServ2{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 5px;
+    font-size: 0.9rem;
+    font-weight: 100;
+    color:#E9D631;
+    border-radius: 50px;
+    background-color: #2D2A27;
+    width: 200px;
+}
+.bi{
+    color:#585858;
+}
+h3{
+    background-color: transparent;
+    font-size: 0.7rem;
+}
+
+.dir{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.dir >div >h3{
+    font-size: 1.3rem;
+    font-weight: 100;
+}
+section >div >h4{
+    font-size: 2rem;
+    font-weight: 100;
+    font-family: italianno;
+    color: #E9D631;
+}
+
+footer >h3{
+    display: flex;
+    justify-content: center;
+    font-size: 0.8rem;
+    font-weight: 100;
+    padding-top: 30px;
+}
+
+/*css planes.html*/
+.logoLetra{
+    background-color: transparent;
+}
+.spanUno{
+    color:#FEF7C0;
+    background-color: transparent;
+}
+section >div >h6{
+    background-color: transparent;
+}
+.servicios{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./img/keto.jpg);
+    background-size: cover;
+    width: auto;
+    height: 300px;
+    background-color: #2D2A27
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items:center;
+    text-align: end;
+    width: auto;
+    height: 2000px;
+}
+
+.box1, .box2, .box3, .box4, .box5, .box6{
+    width: 200px;
+    height: 200px;
+    background-color: #585858;
+    margin: 60px;
+}
+.recetario{
+    width: 450px;
+    height: 450px;
+    background-color: #585858;
+    margin: 60px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Montserrat:wght@100;200;300;400;500;600&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
